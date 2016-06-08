@@ -1,0 +1,12 @@
+Report for A2
+Li Wan
+
+
+According to the comment on the start code, I first change the max and min value of the rotation angle of each baody part, in order to control the action of the penguin made. Just like A2, the next step is to define the value of each part of the penguin, since it is a 3d model, we need height,width and depth to define it. Also ,the top and bottom of each part has diffent size, we need 2 value for each width and depth: upper and lower.
+
+After that, I begin to draw the body of the penguin. The basic help function drawbodypart has the same style as the drawCube function in starter code.Since the torso and head part are simple, it can be done simply use the drawbody part function. For leg and fin, I creat two help function to draw them. Meanwhile, the feet of the penguion can be considered as the triangle, so the drawfoothandle function is used to create the traingle. I add joint to the feet,legs,fins,beak and head part, so they can do rotation change. The draw function is the combination of previous helper function to draw the whole body the 3d penguin.
+
+For the UI Interface, I finish updateKeyframeButton function according to the style from the starter code, and add "shiny metal" and "matte" rendering mode to the inferface. In order to control the light position, glLightfv is used to set the related value. Moreover, the light option is only availible for matte and "shiny metal" render, the program can control it by glEnable(GL_LIGHTING) and glDisable(GL_LIGHTING). For different render, the "wireframe" is made by glPolygonMode( GL_FRONT_AND_BACK, GL_LINE ) and solid by glPolygonMode( GL_FRONT_AND_BACK, GL_FILL );and for last two rendering mode, glMaterial is used to let the model look like metal.
+
+Last but not least, I replace the linear interpolation in getInterpolatedJointDOFS with Catmull-Rom interpolation, so a few more vector is added in order to compute the interpolation value.
+    	

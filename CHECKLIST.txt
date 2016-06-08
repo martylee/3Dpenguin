@@ -1,0 +1,55 @@
+-------------------------------------
+Assignment 2 Checklist/Grading sheet
+-------------------------------------
+
+Name: 
+Student ID:
+
+-----------------------------------------------------------------------------------------
+A. PLEASE ANSWER THE FOLLOWING QUESTIONS (your assignment will not be graded otherwise!)
+
+  
+1. I verify that I completed this assignment according to the 
+   Academic Honesty policy stated in 
+   http://www.artsci.utoronto.ca/osai/students/academic-integrity-basics
+
+   _X__Yes   ___No
+
+
+2. I collaborated on this assignment with another student 
+
+   __X_Yes   ___No
+
+   If you checked yes, please supply the following
+
+       Student name: Shiha Miao
+       Portion(s) of assignment completed by that student (see checklist below)
+       Part A question 2 and question 4
+
+-----------------------------------------------------------------------------------------
+
+B. PLACE AN (X) IN FRONT OF PORTIONS OF THE ASSIGNMENT THAT YOU COMPLETED IN FULL.
+   
+   If a portion of the assignment was not completed fully, please provide 
+   additional information so that we can determine whether or not you are eligible
+   for partial credit. THE MORE INFORMATION YOU SUPPLY (EG. FILE WHICH CONTAINS
+   PARTIAL CODE, FUNCTION NAME, ETC, SUGGESTIONS ON WHERE AND WHAT TO LOOK FOR IN 
+   YOUR PARTIAL IMPLEMENTATION, DETAILED COMMENTS IN YOUR CODE, ETC) THE MORE LIKELY IT IS 
+   WE WILL BE ABLE TO MAKE AN ACCURATE ASSESSMENT
+
+   
+__X_   (10 points) Part 2a     3D penguin design
+                  
+__X_   (10 points) Part 2b     Basic polygon rendering
+
+_X__   ( 5 points) Part 2c     Rendering metallic and matte penguin
+
+_X__   (10 points) Part 2d     Light source control
+                  
+_X__   ( 5 points) Part 2e     Keyframe functionality & supplied keyframe file
+
+_X__   ( 5 points) Part 2f     Catmull-Rom interpolation functionality
+
+_X__   ( 5 points) Part 2g     Written report
+
+-------------------------------------------------------------------------------- 
